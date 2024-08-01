@@ -1,0 +1,80 @@
+
+/*! Mobile
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 767px) {
+
+	/*! Header Wrap
+	–––––––––––––––––––––––––––––––––––––––––––––––––– */
+	.top_socials, .top_links {text-align:center;}
+	header.header_wrap nav.menu_wrap {display:none;position:fixed;top:0;left:0;bottom:0;width:100%;height:100vh;overflow-y:scroll;z-index:100001;background-color:rgba(255, 255, 255, .9);}
+	header.header_wrap nav.menu_wrap::-webkit-scrollbar { display:none; }
+	header.header_wrap nav.menu_wrap::-ms-scrollbar { display:none; }
+	header.header_wrap nav.menu_wrap::-scrollbar { display:none; }
+	header.header_wrap ul.main_menu, header.header_wrap ul.main_menu li {width:100%;height:auto;display:block;border:none;}
+	header.header_wrap ul.main_menu li a {display:block;padding:8px 10px;position:relative;}
+	header.header_wrap ul.main_menu li a span {display:block;text-align:center;}
+	header.header_wrap ul.main_menu li a i {position:absolute;right:20px;top:calc(50% - 7px);}
+	header.header_wrap ul.main_menu li .active {display:block!important;}
+	header.header_wrap ul.main_menu li ul.sub_menu {opacity:1;visibility:visible;filter:alpha(opacity=1);display:none;width:100%;position:relative;margin-bottom:10px;}
+	header.header_wrap ul.main_menu li ul.sub_menu li {width:100%;display:block;background-color:rgba(255, 255, 255, .7);}
+	header.header_wrap ul.main_menu li ul.sub_menu li a {text-align:center;}
+	
+	header.header_wrap ul.main_menu li ul.sub_menu li ul.alt_menu {opacity:1;left:0;top:0!important;visibility:visible;filter:alpha(opacity=1);display:none;width:100%;position:relative;margin-bottom:10px;}
+	header.header_wrap ul.main_menu li ul.sub_menu li ul.alt_menu li {width:100%;display:block;background-color:rgba(255, 255, 255, .7);}
+	header.header_wrap ul.main_menu li ul.sub_menu li ul.alt_menu a {text-align:center;}
+	
+	/*! Product Wrap
+	–––––––––––––––––––––––––––––––––––––––––––––––––– */		
+	section.product_wrap .product_slider {
+		margin-top:10px;
+	}
+	section.product_wrap ul.faq_accordion li h3 {
+		font-size:15px;
+	}
+	section.product_wrap .product_info h3:before {
+		font-size:88px;
+		left:-2%;
+	}
+	
+	section.footer_wrap .newsletter_form input[type="text"] { width:50%; }
+	
+	
+	
+}
+
+/*! Menu Wrap Hidden Fix */
+@media (min-width: 768px) {
+	
+	header.header_wrap nav.menu_wrap {display:block!important;}
+	
+}
+
+/*! MD
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/*! LG
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+
+	
+	
+	
+	
+	
+}
+
+/*! XL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 1200px) {
+	
+	
+	
+	
+	
+}
